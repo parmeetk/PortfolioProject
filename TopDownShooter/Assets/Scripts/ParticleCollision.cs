@@ -10,14 +10,15 @@ public class ParticleCollision : MonoBehaviour
     public float explosionRadius = 3f;
     public float explosionMaxForce = 1000f;
 
-    private Vector3 lastExplosion = Vector3.zero;
+    //private Vector3 lastExplosion = Vector3.zero;
+
     void Start()
     {
         part = GetComponent<ParticleSystem>();
         collisionEvents = new List<ParticleCollisionEvent>();
     }
 
-    private void OnDrawGizmos()
+    private void OnDrawGizmos() 
     {
         Gizmos.color = new Color(1f, 0f, 0f, 0.5f);
     }
