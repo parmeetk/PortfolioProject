@@ -5,7 +5,9 @@ licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - playerObject: {instanceID: 0}
+  - Player: {fileID: 4189331126835418, guid: 30ec0a39896acae4ba987931f288232f, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

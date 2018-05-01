@@ -1,0 +1,21 @@
+- First Priority
+ - Add Health to the enemies and the players
+ - Add ParticleSystem death effects for the enemies
+ - Add score is that calculated by time and enemies killed
+ - Music/GUN Sounds
+
+
+- UI ELEMENTS
+ - Health Bar on Top Left Corner
+ - Score Counter below Health Bar
+ - Show Previous Scores
+ - Add Main Menu Scene
+
+- Other Changes(Not First Priority)
+ - Make Map Prettier/Not a Plane
+ - Add Better Character Models
+ - Maybe add the option to have an alternate fire Shotgun
+
+
+
+ 

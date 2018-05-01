@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    public Transform Player;
-    public Transform myPlayer;
+	public GameObject playerObject;
+	public Transform Player;
+	public float moveSpeed;
 
-    void Update()
-    {
-        transform.LookAt(Player);
-        transform.Translate(Vector3.forward * 2.5f * Time.deltaTime);
-    }
+	void Update()
+	{
+		transform.LookAt(Player);
+		transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+
+		
+	}
 }
