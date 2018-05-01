@@ -1,7 +1,7 @@
 - First Priority
  - Add Health to the enemies and the players
  - Add ParticleSystem death effects for the enemies
- - Add score is that calculated by time and enemies killed
+ - Add score that is calculated by time and enemies killed
  - Music/GUN Sounds
 
 
@@ -9,7 +9,7 @@
  - Health Bar on Top Left Corner
  - Score Counter below Health Bar
  - Show Previous Scores
- - Add Main Menu Scene
+ - Add Main Menu Scene to start the game
 
 - Other Changes(Not First Priority)
  - Make Map Prettier/Not a Plane
