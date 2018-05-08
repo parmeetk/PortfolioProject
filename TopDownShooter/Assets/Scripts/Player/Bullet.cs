@@ -32,15 +32,16 @@ public class Bullet : MonoBehaviour
 		Destroy(bullet, 2.0f);
 	}
 
-	//void OnCollisionEnter(Collision collision)
-	//{
-	//	var hit = collision.gameObject;
-	//	var health = hit.GetComponent();
-	//	if (health != null)
-	//	{
-	//		health.TakeDamage(10);
-	//	}
+	// Setting up bullet to do 10 damage when the bullet collides with enemy
+	void OnCollisionEnter(Collision collision)
+	{
+		var hit = collision.gameObject;
+		var health = hit.GetComponent<EnemyController>(); // Need help
+		if (health != null)
+		{
+			health.TakeDamage(10);
+		}
 
-	//	Destroy(gameObject);
-	//}
+		Destroy(gameObject);
+	}
 }
