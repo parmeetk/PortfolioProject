@@ -36,11 +36,11 @@ public class Bullet : MonoBehaviour
 	void OnCollisionEnter(Collision collision)
 	{
 		var hit = collision.gameObject;
-		var health = hit.GetComponent<EnemyController>(); // Need help
-		if (health != null)
-		{
-			health.TakeDamage(10);
-		}
+		//var health = hit.GetComponent<EnemyController>(); // Need help
+		//if (health != null)
+		//{
+		//	//health.TakeDamage(10);
+		//}
 
 		Destroy(gameObject);
 	}
